@@ -1,0 +1,38 @@
+/*
+*  Final Project
+*
+*  This program creates a scene consisting of rivers, a pond, and a mill with a water
+*  wheel. There are trees bordering the scene and the reflection of the scene can be seen
+*  in the water. This is drawn utilizing the stencil buffer.The pond and river depth are 
+*  set by specifying a set of points to apply as a modifier to the y values of the board. 
+*  A skybox is drawn around the scene when it is in first person mode. An orbiting light 
+*  provides the scene with definition and lighting. Most objects are drawn using a simple
+*  triangle function with transformations applied, which can be seen by pressing "c". The 
+*  inputs allow the user to specify the size and orientation, as well as texture and 
+*  texture scale. A few features I had to cut due to lack of time were the windows and 
+*  better first person navigation, along with more dynamic lighting. 
+
+	The skybox texture was downloaded from 
+	https://www.deviantart.com/raywindly-kingdom/art/Nightsky-335823134
+	
+	All code except for the inbuilt helper functions were written by me. I spent at least 
+	20 hours working on this.
+*
+*  Key Bindings
+*  m			Switch between Perspective and first person
+*  wads			Move around in First person view
+*  arrows       Rotate the scene
+*				Rotate the view in First Person
+*  +/-      	Changes the FOV
+*  i/I			Increases/Decreases ambient value
+*  o/O			Increases/Decreases diffuse value
+*  p/P			Increases/Decreases specular value
+*  c/C			Change the colors to show polygons
+*  l			Toggle lighting
+*  k			Stop the light from rotating
+*  page up/down Move the light
+*  0			Reset the view angle
+*  ESC			Exit
+
+
+*/
