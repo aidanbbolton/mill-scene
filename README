@@ -15,8 +15,8 @@
 	The skybox texture was downloaded from 
 	https://www.deviantart.com/raywindly-kingdom/art/Nightsky-335823134
 	
-	All code except for the inbuilt helper functions were written by me. I spent at least 
-	20 hours working on this.
+	All code except for the inbuilt helper functions were written by me. The current 
+	state of the project is broken, but I am working to restore it as I have time.
 *
 *  Key Bindings
 *  m			Switch between Perspective and first person
